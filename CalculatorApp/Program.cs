@@ -18,7 +18,7 @@ namespace CalculatorApp
         private void Run()
         {
             SmartMenu menu = new SmartMenu();
-            menu.LoadMenu("CalcMenu.txt");
+            menu.LoadMenu(@"..\..\CalcMenu.txt");
             menu.Activate();
         }
     }
